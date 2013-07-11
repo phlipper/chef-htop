@@ -11,6 +11,8 @@ The following platforms are supported by this cookbook, meaning that the recipes
 
 * Ubuntu
 * Debian
+* RedHat
+* CentOS
 
 # RECIPES
 
@@ -19,11 +21,11 @@ The following platforms are supported by this cookbook, meaning that the recipes
 # USAGE
 
 This cookbook installs htop if not present, and pulls updates if they are installed on the system.
+* NOTE: On RedHat/CentOS, the RPM is downloaded from [RepoForge](http://pkgs.repoforge.org/htop/); you can specify the specific version to install by updating the value of `node[:htop][:download_url]`.
 
 # ATTRIBUTES
 
-None
-
+`node[:htop][:download_url]` - For RedHat/Centos, the url from which to download the RPM.
 
 ## Basic Settings
 
