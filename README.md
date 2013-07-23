@@ -11,6 +11,10 @@ The following platforms are supported by this cookbook, meaning that the recipes
 
 * Ubuntu
 * Debian
+* RedHat
+* CentOS
+
+_NOTE:_ On RedHat/CentOS, the RPM is downloaded from [RepoForge](http://pkgs.repoforge.org/htop/)
 
 # RECIPES
 
@@ -43,6 +47,6 @@ None
 
 **chef-htop**
 
-* Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/2011-2012/license.html).
-* Copyright (c) 2011-2012 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper)
+* Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/2011-2013/license.html).
+* Copyright (c) 2011-2013 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper)
 * http://phlippers.net/
