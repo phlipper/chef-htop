@@ -1,11 +1,13 @@
-# DESCRIPTION
+# chef-htop
+
+## Description
 
 Installs [htop](http://htop.sourceforge.net/) an interactive process viewer for Linux.
 
 
-# REQUIREMENTS
+## Requirements
 
-## Supported Platforms
+### Supported Platforms
 
 The following platforms are supported by this cookbook, meaning that the recipes run on these platforms without error:
 
@@ -16,22 +18,17 @@ The following platforms are supported by this cookbook, meaning that the recipes
 
 _NOTE:_ On RedHat/CentOS, the RPM is downloaded from [RepoForge](http://pkgs.repoforge.org/htop/)
 
-# RECIPES
+## Recipes
 
 * `htop` - The default recipe.
 
-# USAGE
+## Usage
 
-This cookbook installs htop if not present, and pulls updates if they are installed on the system.
+this cookbook installs htop if not present, and pulls updates if they are installed on the system.
 
-# ATTRIBUTES
+## Attributes
 
-None
-
-
-## Basic Settings
-
-None
+none
 
 
 ## Contributing
