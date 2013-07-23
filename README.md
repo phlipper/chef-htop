@@ -1,33 +1,34 @@
-# DESCRIPTION
+# chef-htop
+
+## Description
 
 Installs [htop](http://htop.sourceforge.net/) an interactive process viewer for Linux.
 
 
-# REQUIREMENTS
+## Requirements
 
-## Supported Platforms
+### Supported Platforms
 
 The following platforms are supported by this cookbook, meaning that the recipes run on these platforms without error:
 
 * Ubuntu
 * Debian
+* RedHat
+* CentOS
 
-# RECIPES
+_NOTE:_ On RedHat/CentOS, the RPM is downloaded from [RepoForge](http://pkgs.repoforge.org/htop/)
+
+## Recipes
 
 * `htop` - The default recipe.
 
-# USAGE
+## Usage
 
-This cookbook installs htop if not present, and pulls updates if they are installed on the system.
+this cookbook installs htop if not present, and pulls updates if they are installed on the system.
 
-# ATTRIBUTES
+## Attributes
 
-None
-
-
-## Basic Settings
-
-None
+none
 
 
 ## Contributing
@@ -39,10 +40,18 @@ None
 5. Create new Pull Request
 
 
+## Contributors
+
+Many thanks go to the following who have contributed to making this cookbook even better:
+
+* **[@rpunt](https://github.com/rpunt)**
+    * initial pull request with redhat/centos support
+
+
 ## License
 
 **chef-htop**
 
-* Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/2011-2012/license.html).
-* Copyright (c) 2011-2012 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper)
+* Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/2011-2013/license.html).
+* Copyright (c) 2011-2013 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper)
 * http://phlippers.net/
