@@ -40,6 +40,14 @@ none
 5. Create new Pull Request
 
 
+## Contributors
+
+Many thanks go to the following who have contributed to making this cookbook even better:
+
+* **[@rpunt](https://github.com/rpunt)**
+    * initial pull request with redhat/centos support
+
+
 ## License
 
 **chef-htop**
