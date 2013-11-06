@@ -28,7 +28,7 @@ this cookbook installs htop if not present, and pulls updates if they are instal
 
 ## Attributes
 
-none
+* `node['htop']['version']` - Version of htop to install. Defaults to nil.
 
 
 ## Contributing

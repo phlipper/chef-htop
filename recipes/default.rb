@@ -7,7 +7,8 @@
 
 if platform_family?("rhel")
   include_recipe "yum::repoforge"
-  yum_package "htop"
-else
-  package "htop"
+end
+
+package "htop" do
+  version node['htop']['version']
 end
