@@ -5,10 +5,8 @@
 # Copyright 2011-2012, Phil Cohen
 #
 
-if platform_family?("rhel")
-  include_recipe "yum::repoforge"
-end
+include_recipe 'yum::repoforge' if platform_family?('rhel')
 
-package "htop" do
+package 'htop' do
   version node['htop']['version']
 end
