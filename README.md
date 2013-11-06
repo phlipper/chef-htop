@@ -48,6 +48,7 @@ Many thanks go to the following who have contributed to making this cookbook eve
     * initial pull request with redhat/centos support
 * **[@dwradcliffe](https://github.com/dwradcliffe)**
     * add version attribute
+    * add tests
 
 
 ## License
