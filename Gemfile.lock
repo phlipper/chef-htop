@@ -88,7 +88,7 @@ GEM
     httpclient (2.3.4.1)
     httpi (0.9.7)
       rack
-    i18n (0.6.5)
+    i18n (0.6.9)
     ipaddress (0.8.0)
     json (1.7.7)
     little-plugger (1.1.3)
