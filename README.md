@@ -55,8 +55,8 @@ Many thanks go to the following who have contributed to making this cookbook eve
 
 **chef-htop**
 
-* Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/2011-2013/license.html).
-* Copyright (c) 2011-2013 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper)  [![Gittip](http://img.shields.io/gittip/phlipper.png)](https://www.gittip.com/phlipper/)
+* Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/2011-2014/license.html).
+* Copyright (c) 2011-2014 Phil Cohen (github@phlippers.net) [![endorse](http://api.coderwall.com/phlipper/endorsecount.png)](http://coderwall.com/phlipper)  [![Gittip](http://img.shields.io/gittip/phlipper.png)](https://www.gittip.com/phlipper/)
 * http://phlippers.net/
 
 
