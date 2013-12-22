@@ -8,7 +8,7 @@ version          '1.2.0'
 
 recipe 'htop', 'Installs htop monitoring'
 
-depends 'yum'
+depends 'yum', '~> 2.0'
 
 supports 'debian'
 supports 'ubuntu'
