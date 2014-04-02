@@ -8,7 +8,7 @@ version          "1.2.0"
 
 recipe "htop", "Installs htop monitoring"
 
-depends "yum", "~> 2.0"
+depends "yum-repoforge"
 
 supports "debian"
 supports "ubuntu"
