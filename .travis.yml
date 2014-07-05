@@ -1,7 +1,15 @@
+language: ruby
+bundler_args: --without integration
 rvm:
-  - 1.9.3
-  - 2.0.0
+- 1.9.3
+- 2.0.0
+- 2.1.2
 script:
-  - bundle exec foodcritic .
-  - bundle exec rspec --color --format progress
-  - bundle exec rubocop
+- bundle exec rake rubocop
+- bundle exec rake foodcritic
+- bundle exec rake chefspec
+- bundle exec rake kitchen:all
+env:
+  matrix:
+  - CHEF_VERSION: "10.30"
+  - CHEF_VERSION: "11.10"
