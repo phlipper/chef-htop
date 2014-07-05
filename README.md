@@ -49,6 +49,8 @@ Many thanks go to the following who have contributed to making this cookbook eve
 * **[@dwradcliffe](https://github.com/dwradcliffe)**
     * add version attribute
     * add tests
+* **[@billmoritz](https://github.com/billmoritz)**
+    * support `yum` cookbook v3
 
 
 ## License
